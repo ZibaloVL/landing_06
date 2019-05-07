@@ -15,3 +15,111 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
+.header{
+    
+	background-image: linear-gradient(35deg, #1068a8 17%, #6fc1e4 83%);
+    font-family: 'Intro';
+    color:@color_white;
+    
+    
+    
+    
+    .man{
+        background-image: url("../img/header.png") ;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        padding: 30px 25px 200px 25px;  
+        
+        .headerUp{
+            .row-flex();
+            align-items: center;
+            padding: 0 5px;
+                    
+        
+                      
+            .logo{
+                
+                .size(2.95);                     img{
+                    width: 37px;
+                    hight: 32px;
+                    margin-right: 10px;
+                    float: left;
+                }
+                
+                .smm{
+                    overflow: hidden;
+                    text-align: left;
+                    padding-left: 10px;
+                }
+                
+            }
+    
+            
+            .navmeniu{
+                
+                .size(6);
+                
+                ul{
+                    
+                    li{
+                        display: inline;
+                        margin-right: 27px;
+                        a{
+                            text-decoration: none;
+                           color: @color_white;
+                        }
+                    }
+                }
+            }
+            .phone{
+               
+                .size(3.95);
+             
+                text-align: right;
+                font-size: 23px;
+               font-family: 'MyradPro';
+            }
+        } 
+        
+        .headerDown{
+            margin-top: 100px;
+            h1{
+                font-size: 50px;
+                width: 500px;
+                line-height: 56.3px;
+            }
+            
+            p{    
+                margin-top: 13px;
+                margin-bottom: 25px;
+                font-size: 14px;
+                font-family: 'Open Sans';
+                width: 300px;
+            }
+            
+            .btn{
+                a{
+                    
+                    font-family: 'Intro';
+                    color: #0081df;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    transform: scale(1.211,1.22);
+                    text-decoration: none;
+                }
+                width: 218px;
+	            height: 61px;
+	            background-color: #ffffff;
+                border-radius: 50px ;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            
+            
+        }
+    }
+    
+}
