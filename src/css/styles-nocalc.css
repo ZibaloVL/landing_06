@@ -325,3 +325,52 @@ font-family: 'Open Sans', sans-serif;
   padding: 0 30px;
   text-align: center;
 }
+.compleks {
+  margin-top: 80px;
+  background-image: url("../img/comlex.png");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: auto;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.compleks h2 {
+  font-family: 'Intro';
+  color: #0081df;
+  font-size: 35.74844px;
+  line-height: 36.16422px;
+  width: 60%;
+}
+.compleks h2 span {
+  font-size: 27.80309px;
+  line-height: 39.724496px;
+}
+.compleks .items {
+  padding-top: 90px;
+  font-family: 'Open Sans';
+  font-size: 19.632px;
+  font-weight: 600;
+  line-height: 28.8754px;
+}
+.compleks .items .item {
+  width: 40%;
+  margin-bottom: 70px;
+  overflow: hidden;
+}
+.compleks .items .item img {
+  float: left;
+  width: 120px;
+  height: 116px;
+  margin-right: 45px;
+}
+.compleks .items .item p {
+  text-align: left;
+}
+.compleks .items .item:nth-child(2n) img {
+  float: right;
+  margin-left: 30px;
+  margin-right: 0px;
+}
+.compleks .items .item:nth-child(2n) p {
+  text-align: right;
+}

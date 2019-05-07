@@ -179,3 +179,66 @@ font-family: 'Open Sans', sans-serif;
         }
     }
 }
+
+
+.compleks{
+    margin-top: 80px;
+    background-image: url("../img/comlex.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: auto;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    
+    h2{
+        font-family: 'Intro';
+        color:@color_blue;
+        font-size: 31.72*1.127px;
+	    line-height: 31.723*1.14px;
+        width: 60%;
+	    
+        span{
+            font-size: 24.67*1.127px;
+	        line-height: 35.248*1.127px; 
+        }
+    }
+    
+    .items{
+        padding-top: 90px;
+        font-family: 'Open Sans';
+        font-size: 24*0.818px;
+        font-weight: 600;
+        line-height: 35.3*0.818px;
+        
+        
+        .item{
+            width: 40%;
+            margin-bottom: 70px;
+            img{
+                float: left;
+                width: 120px;
+	            height: 116px;
+                margin-right: 45px;
+            }
+            p{
+                text-align: left;
+            }
+            
+            &:nth-child(2n){
+                  img{
+                        float: right;
+                        margin-left: 30px;
+                        margin-right: 0px;  
+                          
+                          
+                    }
+                    p{
+                        text-align: right;
+                    }
+            }
+            
+            overflow: hidden;
+        }
+        
+    }
+}
