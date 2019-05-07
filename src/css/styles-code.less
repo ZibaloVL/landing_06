@@ -123,3 +123,59 @@ font-family: 'Open Sans', sans-serif;
     }
     
 }
+
+.oueClients{
+    padding: 90px 0;
+    
+    h2{
+        font-family: Intro;
+        color: #0081df;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 56.3px;
+     }
+    
+    .slogan{
+        padding-top: 25px;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25.3px;
+        .row-flex();
+        justify-content: space-between;
+        p{
+          .col();
+            
+            &:nth-child(1){
+                .size(6.5);
+                text-align: left;
+            }
+            
+            &:nth-child(2n){
+                .size(4.5);
+                text-align: right;
+            }
+
+            
+        }
+        
+    }
+    
+    .miniBaner{
+        padding-top: 50px;
+        color:@color_white;
+        .row-flex();
+        
+        .item{
+            .col();
+            .size(3);
+            
+            p{
+                margin-top: -100px;
+                padding: 0 30px;
+                text-align: center;
+                
+            }
+        }
+    }
+}
