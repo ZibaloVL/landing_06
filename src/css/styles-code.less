@@ -512,7 +512,7 @@ font-family: 'Open Sans', sans-serif;
     color: @color_white;
     background-color: @color_blue;
     padding-top: 75px;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
     h2{
         
         font-family: Intro;
@@ -543,9 +543,10 @@ font-family: 'Open Sans', sans-serif;
         justify-content: space-between;
         .content{
             .col();
-            .size(6);
+            .size(7);
             
             h3{
+                padding: 80px 0 20px 0;
                 font-family: Intro;
                 color: @color_blue;
                 font-size: 50px;
@@ -553,8 +554,8 @@ font-family: 'Open Sans', sans-serif;
                 line-height: 56.3px;
             }
             p{
-                font-family: OpenSans;
-                color: @color_white;
+                font-family: 'Open Sans';
+                color: @color_black;
                 font-size: 20px;
                 font-weight: 700;
                 line-height: 30px;
@@ -563,16 +564,40 @@ font-family: 'Open Sans', sans-serif;
             .formS{
                 background-color: @color_blue;
                 color: @color_white;
-                p{
-                    font-family: Intro;
-                    font-size: 12*0.883px;
-                    font-weight: 400;
-                    line-height: 18*0.883px;
+                margin-top: 35px;
+                
+                width: 85%;
+                
+                form{
+                        
+                    .inpForm{
+                        width: 428px;
+                        margin: 0px auto;    
+                        span{
+                            font-family: 'Intro';
+                            font-size: 33*0.756px;
+                            font-weight: 400;
+                            line-height: 30*0.756px;
+
+                        }
+                        input{
+                            width: 428px;
+                        	height: 50px;
+	                        border-radius: 10px;
+                            border-radius: 10px;
+                            background-color: #ffffff;
+                        }    
+                    }
                     
+                    p{
+                        font-family: "Intro";
+                        font-size: 12*0.883px;
+                        font-weight: 400;
+                        line-height: 18*0.883px;
+                        color:@color_white;
+                    }
                 }
-                input{
-                    display:block;
-                }
+                
             }
         }
         .img{
