@@ -28,7 +28,16 @@ font-family: 'Open Sans', sans-serif;
         background-image: url("../img/header.png") ;
         background-repeat: no-repeat;
         background-position: 100% 100%;
-        padding: 30px 15px 170px 15px;  
+        padding: 50px 15px 170px 15px;
+        .from(1125px,{
+            padding-top:30px;
+        });
+        .md-block(
+            {background-size: 700px auto;}
+        );
+        .sm-block({
+            background-size: 400px auto;
+        });
 
         
         
@@ -36,8 +45,12 @@ font-family: 'Open Sans', sans-serif;
             .row-flex();
             align-items: center;
             padding: 0 5px;
+            .to(1134px,
+                {margin-top: -10px;
+                padding-bottom: 20px;}
+            );
             justify-content: space-between;
-
+            
 
                     
            
