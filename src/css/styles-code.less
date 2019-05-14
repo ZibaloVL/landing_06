@@ -28,53 +28,73 @@ font-family: 'Open Sans', sans-serif;
         background-image: url("../img/header.png") ;
         background-repeat: no-repeat;
         background-position: 100% 100%;
-        padding: 30px 25px 170px 25px;  
+        padding: 30px 15px 170px 15px;  
+
+        
         
         .headerUp{
             .row-flex();
             align-items: center;
             padding: 0 5px;
+            justify-content: space-between;
+
+
                     
+           
+                .logo{
+                    .col();
+                    width: 190px;
+                    .clearfix;
+                        
+                                    
+                    img{
+                        width: 37px;
+                        height: 32px;
+                        margin-right: 10px;
+                        float: left;
+                    }
+                    
+                    .smm{
+                        overflow: hidden;
+                        text-align: left;
+                        
+                    }
+                    
+                }
         
-                      
-            .logo{
                 
-                .size(2.95);                     img{
-                    width: 37px;
-                    hight: 32px;
-                    margin-right: 10px;
-                    float: left;
-                }
-                
-                .smm{
-                    overflow: hidden;
-                    text-align: left;
-                    padding-left: 10px;
-                }
-                
-            }
-    
-            
-            .navmeniu{
-                
-                .size(6);
-                
-                ul{
+                nav{
+                    .col();
                     
-                    li{
-                        display: inline;
-                        margin-right: 27px;
-                        a{
-                            text-decoration: none;
-                           color: @color_white;
+
+                    .from(1045px, {.size(7);});
+                    ul{
+                        
+                        li{
+                            display: inline;
+                            margin-right: 20px;
+                            .to(1045px,{margin-right:10px;});
+                            a{
+                                text-decoration: none;
+                               color: @color_white;
+                            }
                         }
                     }
                 }
-            }
+
+            
+                      
+            
             .phone{
-               
-                .size(3.95);
-             
+                .col();
+                .size(2.4);
+                .to(940px, {display:none;});
+                .md-block({
+                    font-size: 1.1rem;
+                    .size(2);
+                });
+
+                text-align: right;
                 text-align: right;
                 font-size: 23px;
                font-family: 'MyradPro';
